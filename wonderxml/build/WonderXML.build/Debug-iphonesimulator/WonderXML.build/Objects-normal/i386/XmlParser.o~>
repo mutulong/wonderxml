@@ -1,2 +1,0 @@
-/Users/lukedu/Desktop/WonderXML/XmlParser.m: In function '-[XmlParser fromXml:withObject:]':
-/Users/lukedu/Desktop/WonderXML/XmlParser.m:126: warning: incompatible Objective-C types initializing 'struct NSObject *', expected 'struct NSMutableArray *'
