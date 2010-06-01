@@ -1,0 +1,551 @@
+TWonderXML
+v7
+r0
+t297045309.374053
+cCheck dependencies
+cProcessInfoPlistFile /Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app/Info.plist WonderXML-Info.plist
+cCompileXIB /Users/lukedu/Desktop/WonderXML/MainWindow.xib
+cCompileXIB /Users/lukedu/Desktop/WonderXML/WonderXMLViewController.xib
+cProcessPCH /var/folders/FQ/FQLoqaFZEvaHqlsh6NX96E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WonderXML_Prefix-fmbwcujgxdewwagixkkvfmrrlips/WonderXML_Prefix.pch.gch WonderXML_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/main.o /Users/lukedu/Desktop/WonderXML/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/WonderXMLAppDelegate.o /Users/lukedu/Desktop/WonderXML/Classes/WonderXMLAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/WonderXMLViewController.o /Users/lukedu/Desktop/WonderXML/Classes/WonderXMLViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/XmlParser.o /Users/lukedu/Desktop/WonderXML/XmlParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/TypeMapping.o /Users/lukedu/Desktop/WonderXML/TypeMapping.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/GDataXMLNode.o /Users/lukedu/Desktop/WonderXML/GDataXMLNode.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/Util.o /Users/lukedu/Desktop/WonderXML/Util.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/XmlHeaderHelper.o /Users/lukedu/Desktop/WonderXML/XmlHeaderHelper.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/User.o /Users/lukedu/Desktop/WonderXML/Classes/User.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app/WonderXML normal i386
+cGenerateDSYMFile /Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app.dSYM /Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app/WonderXML
+cTouch /Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004BC5206600000000000000EE
+t1271210086
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h
+c000000004B2B4DB0000000000000192A
+t1261129136
+s6442
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/libxml2/libxml/parser.h
+c000000004B2B4D4E00000000000098A9
+t1261129038
+s39081
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/libxml2/libxml/tree.h
+c000000004B2B4D4E0000000000008F14
+t1261129038
+s36628
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/libxml2/libxml/xmlstring.h
+c000000004B2B4D4E000000000000155A
+t1261129038
+s5466
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/libxml2/libxml/xpath.h
+c000000004B2B4D4E0000000000003F47
+t1261129038
+s16199
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/libxml2/libxml/xpathInternals.h
+c000000004B2B4D4E0000000000004BF8
+t1261129038
+s19448
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/objc/runtime.h
+c000000004748F47C0000000000004FE4
+t1195963516
+s20452
+
+N/Users/lukedu/Desktop/WonderXML/Classes/EditingTableViewCell.h
+c000000004C0450380000000000000AEE
+t1275351096
+s2798
+
+N/Users/lukedu/Desktop/WonderXML/Classes/EditingTableViewCell.m
+c000000004C0450380000000000000ACC
+t1275351096
+s2764
+i"EditingTableViewCell.h"
+
+N/Users/lukedu/Desktop/WonderXML/Classes/EditingTableViewCell.xib
+c000000004C0450380000000000005F1F
+t1275351096
+s24351
+
+N/Users/lukedu/Desktop/WonderXML/Classes/User.h
+c000000004C04503900000000000004C3
+t1275351097
+s1219
+i<Foundation/Foundation.h>
+
+N/Users/lukedu/Desktop/WonderXML/Classes/User.m
+c000000004C04503900000000000003F7
+t1275351097
+s1015
+i"User.h"
+
+N/Users/lukedu/Desktop/WonderXML/Classes/WonderXMLAppDelegate.h
+c000000004C044F8D00000000000001E6
+t1275350925
+s486
+i<UIKit/UIKit.h>
+
+N/Users/lukedu/Desktop/WonderXML/Classes/WonderXMLAppDelegate.m
+c000000004C04554E0000000000000757
+t1275352398
+s1879
+i"WonderXMLAppDelegate.h"
+i"WonderXMLViewController.h"
+i"XmlParser.h"
+i"User.h"
+
+N/Users/lukedu/Desktop/WonderXML/Classes/WonderXMLViewController.h
+c000000004C044F8D00000000000000EF
+t1275350925
+s239
+i<UIKit/UIKit.h>
+
+N/Users/lukedu/Desktop/WonderXML/Classes/WonderXMLViewController.m
+c000000004C044F8D00000000000005BC
+t1275350925
+s1468
+i"WonderXMLViewController.h"
+
+N/Users/lukedu/Desktop/WonderXML/GDataXMLNode.h
+c000000004C0315510000000000001BD1
+t1275270481
+s7121
+i<Foundation/Foundation.h>
+i<libxml/tree.h>
+i<libxml/parser.h>
+i<libxml/xmlstring.h>
+i<libxml/xpath.h>
+i<libxml/xpathInternals.h>
+i"GDataDefines.h"
+
+N/Users/lukedu/Desktop/WonderXML/GDataXMLNode.m
+c000000004C031551000000000000C8CC
+t1275270481
+s51404
+i"GDataXMLNode.h"
+
+N/Users/lukedu/Desktop/WonderXML/MainWindow.xib
+c000000004C044F8D0000000000002662
+t1275350925
+s9826
+
+N/Users/lukedu/Desktop/WonderXML/TypeMapping.h
+c000000004C0315500000000000000171
+t1275270480
+s369
+i<Foundation/Foundation.h>
+
+N/Users/lukedu/Desktop/WonderXML/TypeMapping.m
+c000000004C031550000000000000016F
+t1275270480
+s367
+i"TypeMapping.h"
+
+N/Users/lukedu/Desktop/WonderXML/Util.h
+c000000004C0315510000000000000155
+t1275270481
+s341
+i<Foundation/Foundation.h>
+
+N/Users/lukedu/Desktop/WonderXML/Util.m
+c000000004C0315510000000000000D6D
+t1275270481
+s3437
+i"Util.h"
+i<Foundation/NSObjCRuntime.h>
+i"objc/runtime.h"
+
+N/Users/lukedu/Desktop/WonderXML/WonderXMLViewController.xib
+c000000004C044F8D0000000000001A4D
+t1275350925
+s6733
+
+N/Users/lukedu/Desktop/WonderXML/WonderXML_Prefix.pch
+c000000004C044F8D00000000000000BB
+t1275350925
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/lukedu/Desktop/WonderXML/XmlHeaderHelper.h
+c000000004C0451470000000000000132
+t1275351367
+s306
+i<Foundation/Foundation.h>
+
+N/Users/lukedu/Desktop/WonderXML/XmlHeaderHelper.m
+c000000004C04503900000000000001B2
+t1275351097
+s434
+i"XmlHeaderHelper.h"
+
+N/Users/lukedu/Desktop/WonderXML/XmlParser.h
+c000000004C0454F600000000000001E6
+t1275352310
+s486
+i<Foundation/Foundation.h>
+
+N/Users/lukedu/Desktop/WonderXML/XmlParser.m
+c000000004C0454E10000000000001C6E
+t1275352289
+s7278
+i"XmlParser.h"
+i"GDataXMLNode.h"
+i<Foundation/NSObjCRuntime.h>
+i"objc/runtime.h"
+i"TypeMapping.h"
+i"XmlHeaderHelper.h"
+
+N/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app
+t1275352509
+s272
+
+N/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app.dSYM
+t1275352509
+s102
+
+N/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app/EditingTableViewCell.nib
+t1275351522
+s3294
+
+N/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app/Info.plist
+t1275351407
+s601
+
+N/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app/MainWindow.nib
+t1275351408
+s1514
+
+N/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app/PkgInfo
+t1275351407
+s8
+
+N/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app/WonderXML
+t1275352509
+s69144
+
+N/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app/WonderXMLViewController.nib
+t1275351408
+s1151
+
+N/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/EditingTableViewCell.o
+t1275351522
+s17976
+
+N/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/GDataXMLNode.o
+t1275351409
+s79068
+
+N/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/TypeMapping.o
+t1275351409
+s5404
+
+N/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/User.o
+t1275351522
+s17548
+
+N/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/Util.o
+t1275351409
+s13964
+
+N/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/WonderXML.LinkFileList
+c000000004C0455BD0000000000000471
+t1275352509
+s1137
+
+N/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/WonderXMLAppDelegate.o
+t1275352421
+s41748
+
+N/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/WonderXMLViewController.o
+t1275351409
+s29952
+
+N/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/XmlHeaderHelper.o
+t1275351409
+s6520
+
+N/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/XmlParser.o
+t1275352328
+s26300
+
+N/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/main.o
+t1275351409
+s5936
+
+N/Users/lukedu/Desktop/WonderXML/main.m
+c000000004C044F8D0000000000000166
+t1275350925
+s358
+i<UIKit/UIKit.h>
+
+N/var/folders/FQ/FQLoqaFZEvaHqlsh6NX96E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WonderXML_Prefix-fmbwcujgxdewwagixkkvfmrrlips/WonderXML_Prefix.pch.gch
+t1275351408
+s13026768
+
+N/var/folders/FQ/FQLoqaFZEvaHqlsh6NX96E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WonderXML_Prefix-fxxjlsiabvzchgdyxjbdwynlousx/WonderXML_Prefix.pch.gch
+t1275351214
+s13026768
+
+NWonderXML-Info.plist
+c000000004C044F8D000000000000038D
+t1275350925
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies297045309#297045309#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/EditingTableViewCell.o /Users/lukedu/Desktop/WonderXML/Classes/EditingTableViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s297044322.256083
+e297044322.343291
+r1
+xCompileC
+xbuild/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/EditingTableViewCell.o
+x/Users/lukedu/Desktop/WonderXML/Classes/EditingTableViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/lukedu/Desktop/WonderXML/Classes/EditingTableViewCell.m297044322#297044322#0(0"0(0#0#62"/Users/lukedu/Desktop/WonderXML/Classes/EditingTableViewCell.m4300911832#1970"    cd /Users/lukedu/Desktop/WonderXML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-generated-files.hmap -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-own-target-headers.hmap -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-all-target-headers.hmap -iquote /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-project-headers.hmap -F/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator -I/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/libxml2 -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/DerivedSources/i386 -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/DerivedSources -include /var/folders/FQ/FQLoqaFZEvaHqlsh6NX96E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WonderXML_Prefix-fmbwcujgxdewwagixkkvfmrrlips/WonderXML_Prefix.pch -c /Users/lukedu/Desktop/WonderXML/Classes/EditingTableViewCell.m -o /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/EditingTableViewCell.o0#
+
+CCompileC build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/GDataXMLNode.o /Users/lukedu/Desktop/WonderXML/GDataXMLNode.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s297044209.322203
+e297044209.653861
+r1
+xCompileC
+xbuild/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/GDataXMLNode.o
+x/Users/lukedu/Desktop/WonderXML/GDataXMLNode.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/lukedu/Desktop/WonderXML/GDataXMLNode.m297044209#297044209#0(0"0(0#0#46"/Users/lukedu/Desktop/WonderXML/GDataXMLNode.m4300911832#1946"    cd /Users/lukedu/Desktop/WonderXML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-generated-files.hmap -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-own-target-headers.hmap -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-all-target-headers.hmap -iquote /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-project-headers.hmap -F/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator -I/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/libxml2 -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/DerivedSources/i386 -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/DerivedSources -include /var/folders/FQ/FQLoqaFZEvaHqlsh6NX96E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WonderXML_Prefix-fmbwcujgxdewwagixkkvfmrrlips/WonderXML_Prefix.pch -c /Users/lukedu/Desktop/WonderXML/GDataXMLNode.m -o /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/GDataXMLNode.o0#
+
+CCompileC build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/TypeMapping.o /Users/lukedu/Desktop/WonderXML/TypeMapping.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s297044209.263996
+e297044209.322099
+r1
+xCompileC
+xbuild/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/TypeMapping.o
+x/Users/lukedu/Desktop/WonderXML/TypeMapping.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/lukedu/Desktop/WonderXML/TypeMapping.m297044209#297044209#0(0"0(0#0#45"/Users/lukedu/Desktop/WonderXML/TypeMapping.m4300911832#1944"    cd /Users/lukedu/Desktop/WonderXML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-generated-files.hmap -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-own-target-headers.hmap -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-all-target-headers.hmap -iquote /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-project-headers.hmap -F/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator -I/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/libxml2 -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/DerivedSources/i386 -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/DerivedSources -include /var/folders/FQ/FQLoqaFZEvaHqlsh6NX96E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WonderXML_Prefix-fmbwcujgxdewwagixkkvfmrrlips/WonderXML_Prefix.pch -c /Users/lukedu/Desktop/WonderXML/TypeMapping.m -o /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/TypeMapping.o0#
+
+CCompileC build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/User.o /Users/lukedu/Desktop/WonderXML/Classes/User.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s297044322.253940
+e297044322.356815
+r1
+xCompileC
+xbuild/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/User.o
+x/Users/lukedu/Desktop/WonderXML/Classes/User.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/lukedu/Desktop/WonderXML/Classes/User.m297044322#297044322#0(0"0(0#0#46"/Users/lukedu/Desktop/WonderXML/Classes/User.m4300911832#1938"    cd /Users/lukedu/Desktop/WonderXML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-generated-files.hmap -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-own-target-headers.hmap -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-all-target-headers.hmap -iquote /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-project-headers.hmap -F/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator -I/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/libxml2 -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/DerivedSources/i386 -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/DerivedSources -include /var/folders/FQ/FQLoqaFZEvaHqlsh6NX96E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WonderXML_Prefix-fmbwcujgxdewwagixkkvfmrrlips/WonderXML_Prefix.pch -c /Users/lukedu/Desktop/WonderXML/Classes/User.m -o /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/User.o0#
+
+CCompileC build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/Util.o /Users/lukedu/Desktop/WonderXML/Util.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s297044209.425658
+e297044209.502886
+r1
+xCompileC
+xbuild/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/Util.o
+x/Users/lukedu/Desktop/WonderXML/Util.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/lukedu/Desktop/WonderXML/Util.m297044209#297044209#0(0"0(0#0#38"/Users/lukedu/Desktop/WonderXML/Util.m4300911832#1930"    cd /Users/lukedu/Desktop/WonderXML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-generated-files.hmap -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-own-target-headers.hmap -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-all-target-headers.hmap -iquote /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-project-headers.hmap -F/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator -I/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/libxml2 -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/DerivedSources/i386 -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/DerivedSources -include /var/folders/FQ/FQLoqaFZEvaHqlsh6NX96E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WonderXML_Prefix-fmbwcujgxdewwagixkkvfmrrlips/WonderXML_Prefix.pch -c /Users/lukedu/Desktop/WonderXML/Util.m -o /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/Util.o0#
+
+CCompileC build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/WonderXMLAppDelegate.o /Users/lukedu/Desktop/WonderXML/Classes/WonderXMLAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s297045221.572039
+e297045221.735144
+r1
+xCompileC
+xbuild/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/WonderXMLAppDelegate.o
+x/Users/lukedu/Desktop/WonderXML/Classes/WonderXMLAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/lukedu/Desktop/WonderXML/Classes/WonderXMLAppDelegate.m297045221#297045221#0(0"0(0#0#62"/Users/lukedu/Desktop/WonderXML/Classes/WonderXMLAppDelegate.m4300911832#1970"    cd /Users/lukedu/Desktop/WonderXML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-generated-files.hmap -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-own-target-headers.hmap -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-all-target-headers.hmap -iquote /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-project-headers.hmap -F/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator -I/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/libxml2 -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/DerivedSources/i386 -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/DerivedSources -include /var/folders/FQ/FQLoqaFZEvaHqlsh6NX96E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WonderXML_Prefix-fmbwcujgxdewwagixkkvfmrrlips/WonderXML_Prefix.pch -c /Users/lukedu/Desktop/WonderXML/Classes/WonderXMLAppDelegate.m -o /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/WonderXMLAppDelegate.o0#
+
+CCompileC build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/WonderXMLViewController.o /Users/lukedu/Desktop/WonderXML/Classes/WonderXMLViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s297044209.166442
+e297044209.263810
+r1
+xCompileC
+xbuild/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/WonderXMLViewController.o
+x/Users/lukedu/Desktop/WonderXML/Classes/WonderXMLViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/lukedu/Desktop/WonderXML/Classes/WonderXMLViewController.m297044209#297044209#0(0"0(0#0#65"/Users/lukedu/Desktop/WonderXML/Classes/WonderXMLViewController.m4300911832#1976"    cd /Users/lukedu/Desktop/WonderXML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-generated-files.hmap -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-own-target-headers.hmap -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-all-target-headers.hmap -iquote /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-project-headers.hmap -F/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator -I/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/libxml2 -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/DerivedSources/i386 -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/DerivedSources -include /var/folders/FQ/FQLoqaFZEvaHqlsh6NX96E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WonderXML_Prefix-fmbwcujgxdewwagixkkvfmrrlips/WonderXML_Prefix.pch -c /Users/lukedu/Desktop/WonderXML/Classes/WonderXMLViewController.m -o /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/WonderXMLViewController.o0#
+
+CCompileC build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/XmlHeaderHelper.o /Users/lukedu/Desktop/WonderXML/XmlHeaderHelper.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s297044209.503000
+e297044209.573083
+r1
+xCompileC
+xbuild/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/XmlHeaderHelper.o
+x/Users/lukedu/Desktop/WonderXML/XmlHeaderHelper.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/lukedu/Desktop/WonderXML/XmlHeaderHelper.m297044209#297044209#0(0"0(0#0#49"/Users/lukedu/Desktop/WonderXML/XmlHeaderHelper.m4300911832#1952"    cd /Users/lukedu/Desktop/WonderXML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-generated-files.hmap -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-own-target-headers.hmap -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-all-target-headers.hmap -iquote /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-project-headers.hmap -F/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator -I/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/libxml2 -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/DerivedSources/i386 -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/DerivedSources -include /var/folders/FQ/FQLoqaFZEvaHqlsh6NX96E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WonderXML_Prefix-fmbwcujgxdewwagixkkvfmrrlips/WonderXML_Prefix.pch -c /Users/lukedu/Desktop/WonderXML/XmlHeaderHelper.m -o /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/XmlHeaderHelper.o0#
+
+CCompileC build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/XmlParser.o /Users/lukedu/Desktop/WonderXML/XmlParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s297045128.599277
+e297045128.827546
+r1
+xCompileC
+xbuild/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/XmlParser.o
+x/Users/lukedu/Desktop/WonderXML/XmlParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/lukedu/Desktop/WonderXML/XmlParser.m297045128#297045128#0(0"0(0#0#43"/Users/lukedu/Desktop/WonderXML/XmlParser.m4300911832#1940"    cd /Users/lukedu/Desktop/WonderXML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-generated-files.hmap -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-own-target-headers.hmap -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-all-target-headers.hmap -iquote /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-project-headers.hmap -F/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator -I/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/libxml2 -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/DerivedSources/i386 -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/DerivedSources -include /var/folders/FQ/FQLoqaFZEvaHqlsh6NX96E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WonderXML_Prefix-fmbwcujgxdewwagixkkvfmrrlips/WonderXML_Prefix.pch -c /Users/lukedu/Desktop/WonderXML/XmlParser.m -o /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/XmlParser.o0#
+
+CCompileC build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/main.o /Users/lukedu/Desktop/WonderXML/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s297044209.075830
+e297044209.166325
+r1
+xCompileC
+xbuild/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/main.o
+x/Users/lukedu/Desktop/WonderXML/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/lukedu/Desktop/WonderXML/main.m297044209#297044209#0(0"0(0#0#38"/Users/lukedu/Desktop/WonderXML/main.m4300911832#1930"    cd /Users/lukedu/Desktop/WonderXML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-generated-files.hmap -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-own-target-headers.hmap -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-all-target-headers.hmap -iquote /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-project-headers.hmap -F/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator -I/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/libxml2 -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/DerivedSources/i386 -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/DerivedSources -include /var/folders/FQ/FQLoqaFZEvaHqlsh6NX96E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WonderXML_Prefix-fmbwcujgxdewwagixkkvfmrrlips/WonderXML_Prefix.pch -c /Users/lukedu/Desktop/WonderXML/main.m -o /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/lukedu/Desktop/WonderXML/Classes/EditingTableViewCell.xib
+s297044321.810073
+e297044322.253029
+r1
+xCompileXIB
+x/Users/lukedu/Desktop/WonderXML/Classes/EditingTableViewCell.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@43"CompileXIB Classes/EditingTableViewCell.xib297044321#297044322#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#64"/Users/lukedu/Desktop/WonderXML/Classes/EditingTableViewCell.xib4300911832#491"    cd /Users/lukedu/Desktop/WonderXML    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app/EditingTableViewCell.nib /Users/lukedu/Desktop/WonderXML/Classes/EditingTableViewCell.xib0#
+
+CCompileXIB /Users/lukedu/Desktop/WonderXML/MainWindow.xib
+s297044207.726620
+e297044208.147313
+r1
+xCompileXIB
+x/Users/lukedu/Desktop/WonderXML/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib297044207#297044208#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#46"/Users/lukedu/Desktop/WonderXML/MainWindow.xib4300911832#463"    cd /Users/lukedu/Desktop/WonderXML    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app/MainWindow.nib /Users/lukedu/Desktop/WonderXML/MainWindow.xib0#
+
+CCompileXIB /Users/lukedu/Desktop/WonderXML/WonderXMLViewController.xib
+s297044207.727533
+e297044208.061930
+r1
+xCompileXIB
+x/Users/lukedu/Desktop/WonderXML/WonderXMLViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@38"CompileXIB WonderXMLViewController.xib297044207#297044208#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#59"/Users/lukedu/Desktop/WonderXML/WonderXMLViewController.xib4300911832#489"    cd /Users/lukedu/Desktop/WonderXML    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app/WonderXMLViewController.nib /Users/lukedu/Desktop/WonderXML/WonderXMLViewController.xib0#
+
+CGenerateDSYMFile /Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app.dSYM /Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app/WonderXML
+s297045309.342582
+e297045309.370668
+r1
+xGenerateDSYMFile
+x/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app.dSYM
+x/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app/WonderXML
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/WonderXML.app.dSYM build/Debug-iphonesimulator/WonderXML.app/WonderXML297045309#297045309#0(0"0(0#0#83"/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app/WonderXML4300911832#368"    cd /Users/lukedu/Desktop/WonderXML    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app/WonderXML -o /Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app.dSYM0#
+
+CLd /Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app/WonderXML normal i386
+s297045309.310417
+e297045309.342449
+r1
+xLd
+x/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app/WonderXML
+xnormal
+xi386
+lSLF07#2@88"Link /Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app/WonderXML297045309#297045309#0(0"0(0#0#0"4300911832#846"    cd /Users/lukedu/Desktop/WonderXML    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator -F/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator -filelist /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/Objects-normal/i386/WonderXML.LinkFileList -mmacosx-version-min=10.5 -lxml2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app/WonderXML0#
+
+CProcessInfoPlistFile /Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app/Info.plist WonderXML-Info.plist
+s297044207.722692
+e297044207.726531
+r1
+xProcessInfoPlistFile
+x/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app/Info.plist
+xWonderXML-Info.plist
+lSLF07#2@28"Process WonderXML-Info.plist297044207#297044207#0(0"0(0#0#52"/Users/lukedu/Desktop/WonderXML/WonderXML-Info.plist4300911832#464"    cd /Users/lukedu/Desktop/WonderXML    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility WonderXML-Info.plist -genpkginfo /Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app/Info.plist0#
+
+CProcessPCH /var/folders/FQ/FQLoqaFZEvaHqlsh6NX96E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WonderXML_Prefix-fmbwcujgxdewwagixkkvfmrrlips/WonderXML_Prefix.pch.gch WonderXML_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s297044208.147447
+e297044209.075696
+r1
+xProcessPCH
+x/var/folders/FQ/FQLoqaFZEvaHqlsh6NX96E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WonderXML_Prefix-fmbwcujgxdewwagixkkvfmrrlips/WonderXML_Prefix.pch.gch
+xWonderXML_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile WonderXML_Prefix.pch297044208#297044209#0(0"0(0#0#52"/Users/lukedu/Desktop/WonderXML/WonderXML_Prefix.pch4300911832#1827"    cd /Users/lukedu/Desktop/WonderXML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-generated-files.hmap -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-own-target-headers.hmap -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-all-target-headers.hmap -iquote /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-project-headers.hmap -F/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator -I/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/libxml2 -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/DerivedSources/i386 -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/DerivedSources -c /Users/lukedu/Desktop/WonderXML/WonderXML_Prefix.pch -o /var/folders/FQ/FQLoqaFZEvaHqlsh6NX96E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WonderXML_Prefix-fmbwcujgxdewwagixkkvfmrrlips/WonderXML_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/FQ/FQLoqaFZEvaHqlsh6NX96E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WonderXML_Prefix-fxxjlsiabvzchgdyxjbdwynlousx/WonderXML_Prefix.pch.gch WonderXML_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s297044012.751373
+e297044014.199873
+r1
+xProcessPCH
+x/var/folders/FQ/FQLoqaFZEvaHqlsh6NX96E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WonderXML_Prefix-fxxjlsiabvzchgdyxjbdwynlousx/WonderXML_Prefix.pch.gch
+xWonderXML_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile WonderXML_Prefix.pch297044012#297044014#0(0"0(0#0#52"/Users/lukedu/Desktop/WonderXML/WonderXML_Prefix.pch4300911832#1719"    cd /Users/lukedu/Desktop/WonderXML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-generated-files.hmap -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-own-target-headers.hmap -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-all-target-headers.hmap -iquote /Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/WonderXML-project-headers.hmap -F/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator -I/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/include -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/DerivedSources/i386 -I/Users/lukedu/Desktop/WonderXML/build/WonderXML.build/Debug-iphonesimulator/WonderXML.build/DerivedSources -c /Users/lukedu/Desktop/WonderXML/WonderXML_Prefix.pch -o /var/folders/FQ/FQLoqaFZEvaHqlsh6NX96E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WonderXML_Prefix-fxxjlsiabvzchgdyxjbdwynlousx/WonderXML_Prefix.pch.gch0#
+
+CTouch /Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app
+s297045309.370766
+e297045309.373990
+r1
+xTouch
+x/Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app
+lSLF07#2@79"Touch /Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app297045309#297045309#0(0"0(0#0#0"4300911832#266"    cd /Users/lukedu/Desktop/WonderXML    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/lukedu/Desktop/WonderXML/build/Debug-iphonesimulator/WonderXML.app0#
+
