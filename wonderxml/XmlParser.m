@@ -119,11 +119,11 @@ static const char* getPropertyType(objc_property_t property) {
 
 //convert xml string into object the same type as given object.
 
--(NSMutableArray *)fromXml:(NSString *)xmlString withObject:(id)obj{
+-(id)fromXml:(NSString *)xmlString withObject:(id)obj{
 	
-	NSLog(@"xmlStringxmlStringxmlStringxmlStringxmlStringxmlString :: %@", xmlString);
 	NSString *xmlStr = xmlString;
 	
+	//xmlStr = [xmlStr stringByReplacingOccurrencesOfString:@"xmlns" withString:@"noNSxml"];
 	xmlStr = [xmlStr stringByReplacingOccurrencesOfString:@"ns1:" withString:@""];
 	NSError *error;
 	
@@ -133,37 +133,64 @@ static const char* getPropertyType(objc_property_t property) {
 		return nil; 
 	}
     
+	
+	NSLog(@"xmlString :: %@", xmlString);
+	
     
     NSMutableDictionary *propertyDic = [XmlParser propertDictionary:obj];
 	
 	
-    //NSLog(@"propertyDic :: %@", propertyDic);
+    NSLog(@"propertyDic :: %@", propertyDic);
 	
 	const char *objectName = class_getName([obj class]);
 	NSString *objectNameStr = [NSString stringWithCString:objectName encoding:NSASCIIStringEncoding];
 	
-	//NSLog(@"objectNameStr :: %@", objectNameStr);
+	NSLog(@"objectNameStr :: %@", objectNameStr);
 	
-	NSArray *objects = [doc nodesForXPath:[NSString stringWithFormat:@"//%@", objectNameStr] error:nil];
+	GDataXMLElement *anElement = [doc rootElement];
+	
+	NSLog(@"stringValue :: %@", anElement.name);
+	
+	
+	NSArray *objects;
+	
+	
+	if ([objectNameStr isEqualToString:[[doc rootElement] name]]) {
+		objects = [NSArray arrayWithObject:[doc rootElement]];
+	}
+	
+	else {
+		objects = [doc nodesForXPath:[NSString stringWithFormat:@"//%@", objectNameStr] error:nil];
+	}
+	
+	if (![objects count]) {
+		NSLog(@"no given object");
+		return nil;
+	}
+	
+	
 	NSObject * createdObject;
 	
+	NSLog(@"objects :: %@", objects);
+	
+	//NSMutableArray *returnArray = [NSMutableArray arrayWithCapacity:[objects count]]; 
 	NSMutableArray *returnArray = [[NSMutableArray alloc] init]; 
 	
     for (GDataXMLElement *thisObeject in objects) {
-
+		
 		createdObject = [[[NSClassFromString(objectNameStr) alloc] init] autorelease];
 		
-        //NSLog(@"thisObeject is %@",thisObeject);
+        NSLog(@"thisObeject is %@",thisObeject);
 		for (NSString *key in propertyDic) {
-			//NSLog(@"key: %@, value: %@", key, [propertyDic objectForKey:key]);
+			NSLog(@"key: %@, value: %@", key, [propertyDic objectForKey:key]);
 			
 			NSArray *anArray = [thisObeject elementsForName:key];
-			//NSLog(@"anArray :: %@",  anArray);
+			NSLog(@"anArray :: %@",  anArray);
 			
 			if (anArray.count > 0) {
 				GDataXMLElement *anElement = (GDataXMLElement *) [anArray objectAtIndex:0];
 				
-				//NSLog(@"anElement :: %@",anElement.stringValue);
+				NSLog(@"anElement :: %@",anElement.stringValue);
 				
 				if ([[propertyDic objectForKey:key] isEqualToString:nsNumberType]) {
 					
@@ -184,16 +211,15 @@ static const char* getPropertyType(objc_property_t property) {
 				}
 			}
 		}
-			
-		[returnArray addObject:createdObject];
-
-	}
-
 		
+		[returnArray addObject:createdObject];
+		
+	}
+	
+	NSLog(@"return array has %d objects",[returnArray count]);	
 	return returnArray;
-
+	
 }
-
 
 
 
